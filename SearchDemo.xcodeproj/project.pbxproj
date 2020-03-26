@@ -12,6 +12,9 @@
 		3455028B2429DD1D00BAE0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345502892429DD1D00BAE0CA /* Main.storyboard */; };
 		3455028D2429DD1E00BAE0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3455028C2429DD1E00BAE0CA /* Assets.xcassets */; };
 		345502902429DD1E00BAE0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3455028E2429DD1E00BAE0CA /* LaunchScreen.storyboard */; };
+		B74871E2242CB09100AB64DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74871E1242CB09100AB64DB /* Model.swift */; };
+		B7CFE14B242CF0C100878FCE /* UItextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CFE14A242CF0C100878FCE /* UItextField.swift */; };
+		B7CFE14E242CF89100878FCE /* CustomHeader.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7CFE14D242CF89100878FCE /* CustomHeader.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3455028C2429DD1E00BAE0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3455028F2429DD1E00BAE0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		345502912429DD1E00BAE0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74871E1242CB09100AB64DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B7CFE14A242CF0C100878FCE /* UItextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItextField.swift; sourceTree = "<group>"; };
+		B7CFE14D242CF89100878FCE /* CustomHeader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CustomHeader.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		345502842429DD1C00BAE0CA /* SearchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B7CFE14C242CF44200878FCE /* Attachment */,
 				345502852429DD1D00BAE0CA /* AppDelegate.swift */,
 				345502872429DD1D00BAE0CA /* ViewController.swift */,
 				345502892429DD1D00BAE0CA /* Main.storyboard */,
 				3455028C2429DD1E00BAE0CA /* Assets.xcassets */,
 				3455028E2429DD1E00BAE0CA /* LaunchScreen.storyboard */,
 				345502912429DD1E00BAE0CA /* Info.plist */,
+				B74871E1242CB09100AB64DB /* Model.swift */,
+				B7CFE14A242CF0C100878FCE /* UItextField.swift */,
 			);
 			path = SearchDemo;
+			sourceTree = "<group>";
+		};
+		B7CFE14C242CF44200878FCE /* Attachment */ = {
+			isa = PBXGroup;
+			children = (
+				B7CFE14D242CF89100878FCE /* CustomHeader.gif */,
+			);
+			path = Attachment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7CFE14E242CF89100878FCE /* CustomHeader.gif in Resources */,
 				345502902429DD1E00BAE0CA /* LaunchScreen.storyboard in Resources */,
 				3455028D2429DD1E00BAE0CA /* Assets.xcassets in Resources */,
 				3455028B2429DD1D00BAE0CA /* Main.storyboard in Resources */,
@@ -134,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74871E2242CB09100AB64DB /* Model.swift in Sources */,
 				345502882429DD1D00BAE0CA /* ViewController.swift in Sources */,
 				345502862429DD1D00BAE0CA /* AppDelegate.swift in Sources */,
+				B7CFE14B242CF0C100878FCE /* UItextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SearchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SearchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
