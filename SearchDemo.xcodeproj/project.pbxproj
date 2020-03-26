@@ -14,7 +14,7 @@
 		345502902429DD1E00BAE0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3455028E2429DD1E00BAE0CA /* LaunchScreen.storyboard */; };
 		B74871E2242CB09100AB64DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74871E1242CB09100AB64DB /* Model.swift */; };
 		B7CFE14B242CF0C100878FCE /* UItextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CFE14A242CF0C100878FCE /* UItextField.swift */; };
-		B7CFE14E242CF89100878FCE /* CustomHeader.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7CFE14D242CF89100878FCE /* CustomHeader.gif */; };
+		B7CFE150242CFB6C00878FCE /* Search.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7CFE14F242CFB6C00878FCE /* Search.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		345502912429DD1E00BAE0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74871E1242CB09100AB64DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B7CFE14A242CF0C100878FCE /* UItextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItextField.swift; sourceTree = "<group>"; };
-		B7CFE14D242CF89100878FCE /* CustomHeader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CustomHeader.gif; sourceTree = "<group>"; };
+		B7CFE14F242CFB6C00878FCE /* Search.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Search.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		B7CFE14C242CF44200878FCE /* Attachment */ = {
 			isa = PBXGroup;
 			children = (
-				B7CFE14D242CF89100878FCE /* CustomHeader.gif */,
+				B7CFE14F242CFB6C00878FCE /* Search.gif */,
 			);
 			path = Attachment;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7CFE14E242CF89100878FCE /* CustomHeader.gif in Resources */,
 				345502902429DD1E00BAE0CA /* LaunchScreen.storyboard in Resources */,
 				3455028D2429DD1E00BAE0CA /* Assets.xcassets in Resources */,
+				B7CFE150242CFB6C00878FCE /* Search.gif in Resources */,
 				3455028B2429DD1D00BAE0CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

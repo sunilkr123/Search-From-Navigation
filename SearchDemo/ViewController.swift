@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchTextField.text  = "Storage Yard's"
+        searchTextField.text  = "Stident's Name"
         searchTextField.isUserInteractionEnabled = false
         searchTextField.textColor = UIColor.white
         searchbutton.image = UIImage(systemName: "magnifyingglass")
@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }else{
             searchTextField.resignFirstResponder()
             searchbutton.image = UIImage(systemName: "magnifyingglass")
-            searchTextField.text  = "Storage Yard's"
+            searchTextField.text  = "Stident's Name"
             searchTextField.isUserInteractionEnabled = false
             searchTextField.textColor = UIColor.white
             filterData = dataList
