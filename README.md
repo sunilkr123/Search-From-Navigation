@@ -30,5 +30,8 @@ Steps to implement
     }
     
     ###Download the code and use it 
-    ##Preview of the Screen
-    <img src="https://github.com/sunilkr123/Search-From-Navigation/blob/master/SearchDemo/Attachment/search2.gif" width="300" height="600">
+    
+   # ##Preview of the Screen
+  
+  
+<img src="https://github.com/sunilkr123/Search-From-Navigation/blob/master/SearchDemo/Attachment/search2.gif" width="300" height="600">
