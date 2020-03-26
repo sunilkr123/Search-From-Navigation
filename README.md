@@ -1,13 +1,13 @@
 # Search-From-Navigation
 Steps to implement
-##1.Add the Navigation Cotroller to the ViewController,and drag the UItextField and make the outlets of that and add the following code to the ViewDidLoad()
+##1.Add the Navigation Cotroller to the ViewController,and drag the UItextField and make the outlets of that 
 
 #Outlets of textField
 
- @IBOutlet weak var searchTextField: UITextField!
+@IBOutlet weak var searchTextField: UITextField!
  
  
-
+### add the following code to the ViewDidLoad()
    
        
         searchTextField.text  = "Stident's Name"
