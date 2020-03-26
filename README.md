@@ -1,13 +1,25 @@
 # Search-From-Navigation
 Steps to implement
 ##1.Add the Navigation Cotroller to the ViewController,and drag the UItextField and make the outlets of that and add the following code to the ViewDidLoad()
+
 #Outlets of textField
+
  @IBOutlet weak var searchTextField: UITextField!
  
-  searchTextField.text  = "Stident's Name"
-  searchTextField.isUserInteractionEnabled = false
-  searchTextField.textColor = UIColor.white
+ 
 
+   
+       
+        searchTextField.text  = "Stident's Name"
+        searchTextField.isUserInteractionEnabled = false
+        searchTextField.textColor = UIColor.white
+        searchbutton.image = UIImage(systemName: "magnifyingglass")
+        storeData()
+        
+        
+
+    
+    
 ##2.Make the action of the textfield with the type of didEditing changed
  
     @IBAction func searchTextField(_ sender: UITextField) {
