@@ -1,4 +1,5 @@
 # Search-From-Navigation
+## Download the code and use it 
 Steps to implement
 ##1.Add the Navigation Cotroller to the ViewController,and drag the UItextField and make the outlets of that 
 
@@ -41,7 +42,7 @@ Steps to implement
         }
     }
     
-    ###Download the code and use it 
+  
     
    # ##Preview of the Screen
   
